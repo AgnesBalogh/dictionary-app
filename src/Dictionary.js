@@ -30,7 +30,7 @@ function handleKeywordChange(event) {
         <section>
         <h1 className="type">Type in a word</h1>
         <form onSubmit={search} className="type">
-            <input type="search" onClick={handleKeywordChange} />
+            <input type="search" onChange={handleKeywordChange} />
         </form>
         </section>
         <Results results={results} />
